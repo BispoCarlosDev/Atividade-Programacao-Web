@@ -27,11 +27,53 @@ footer {
 
 input {
     border: none;
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(235, 235, 235);
     
     
 }
 
 .txtnome {
     width: 800px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.top input {
+    width: 750px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.left input {
+    width: 450px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.right input {
+    width: 250px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.right select {
+    width: 250px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.body {
+    display: flex;
+}
+
+.left {
+    flex: 1;
+    margin-right: 25px;
+}
+
+.right {
+    flex: 1;
+    margin-left: 25px;
 }
